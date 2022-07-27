@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y50WCS38NV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y50WCS38NV');
+</script>
+
+  
+<title>Weather Report</title>
+</head>
+<body>
+
+<center>
+  <h1>City Weather report</h1>
+<h3>Upload an excel workbook with 3 sheets. Sheet1 should contain a city name in first row and first column. <br>Sheet2 should contain another city name to compare weather and sheet3 should be empty.</h3>
+  <br><br>
+
+  <form method="POST" action="/excel" enctype="multipart/form-data">
+    <label for="upload">Upload excel sheet here</label><br><br>
+    <input type="file" id="file" name="file" autocomplete="off" required><br><br>
+    <input type="submit" value="Submit">
+    
+  </form>
+  
+</center>
+
+
+</body>
+</html> 

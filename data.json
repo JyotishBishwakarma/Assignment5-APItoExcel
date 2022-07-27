@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": -80.99,
+        "lat": 46.49
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 299.69,
+        "feels_like": 299.69,
+        "temp_min": 299.69,
+        "temp_max": 299.69,
+        "pressure": 1012,
+        "humidity": 72,
+        "sea_level": 1012,
+        "grnd_level": 981
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.74,
+        "deg": 208,
+        "gust": 1.79
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1658105276,
+    "sys": {
+        "type": 1,
+        "id": 923,
+        "country": "CA",
+        "sunrise": 1658051275,
+        "sunset": 1658106714
+    },
+    "timezone": -14400,
+    "id": 5964700,
+    "name": "Greater Sudbury",
+    "cod": 200
+}
